@@ -1,0 +1,22 @@
+{
+	"manifest_version" : 2,
+
+	"name": "ChromeTextCrypter",
+	"version": "1.0",
+	"description": "Chrome Text Crypter for Google Chrome",
+
+	"background": {
+		"scripts": ["src/background.js", "src/AES/aes.js", "src/AES/aes-ctr.js"]
+	},
+
+	"browser_action": {
+		"default_title" : "Crypt using Chrome Text Crypter" 
+    },
+	"permissions": [
+		"activeTab",
+		"tabs",
+		"contextMenus",
+		"http://*/*",
+		"https://*/*"
+	]
+}
