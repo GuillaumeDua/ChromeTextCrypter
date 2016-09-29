@@ -1,5 +1,5 @@
 
-var THIS_APP_ID = 'epmcooaoflbkpanlepccegmaldjmaakp';
+var THIS_APP_ID = chrome.i18n.getMessage("@@extension_id");
 
 var Exceptions =
 {

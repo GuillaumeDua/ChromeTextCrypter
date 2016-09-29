@@ -1,5 +1,6 @@
 
-var THIS_APP_ID 		= 'epmcooaoflbkpanlepccegmaldjmaakp';
+var THIS_APP_ID 		= chrome.runtime.id;
+
 var currentFocus_value 	= undefined;
 
 var Exceptions = 
